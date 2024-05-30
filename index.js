@@ -16,6 +16,8 @@ citySelect.addEventListener('change', function () {
 
 });
 
+updatingclock();
+
 function updatingclock() {
     let timezoneOffset;
     if (citySelect.value === "local") {
@@ -64,5 +66,5 @@ function updatingclock() {
     setTimeout(updatingclock, 1000);
 }
 
-updatingclock();
+
 
