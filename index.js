@@ -6,15 +6,21 @@ const citySelect = document.getElementById("city-selection");
 const localTimezoneOffset = -new Date().getTimezoneOffset() / 60;
 
 citySelect.addEventListener('mousedown', function (event) {
-    event.preventDefault;
-    citySelect.size = 5;
-});
-
-citySelect.addEventListener('change', function () {
-    updatingclock;
-    citySelect.size = 1;
+    if (event.target.tagName == 'SELECT') {
+        event.preventDefault;
+        citySelect.size = 5;
+    }
 
 });
+
+citySelect.addEventListener('click', function (event) {
+    if (event.target.tagName == 'OPTION') {
+        updatingclock();
+        citySelect.size = 1;
+    }
+});
+
+
 
 updatingclock();
 
@@ -65,6 +71,8 @@ function updatingclock() {
 
     setTimeout(updatingclock, 1000);
 }
+
+
 
 
 
