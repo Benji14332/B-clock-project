@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: url(IMG/background.jpg) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.dialc {
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  border: 5px solid black;
+  margin: 0 auto;
+  position: relative;
+  background: url(IMG/clockD.jpg);
+  background-size: cover;
+}
+
+.hourzz,
+.minzz,
+.secondzz {
+  position: absolute;
+  width: 45%;
+  height: 6px;
+  background: black;
+  border-radius: 10px;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: transform 0.5s none;
+}
+
+.hourzz{
+  width: 30%;
+  left: 48px;
+  top: 123px;
+  height: 6px;
+}
+
+.minzz {
+  width: 40%;
+  left: 22px;
+  height: 4px;
+}
+
+.secondzz {
+  left: 11px;
+  height: 2px;
+  background: red;
+}
+
+.center {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: black;
+  top: 50%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+
+span{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position:absolute;
+  padding: 3px;
+  position: relative;
+  border-radius: 10px;
+  top: -45px;
+}
+
+
+select {
+  position: relative;
+  top:18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: -20px;
+}
+
+@keyframes colorswitch{
+  0%{background-color: rgb(138, 181, 236)}
+  50%{background-color: rgb(66, 149, 249);}
+  100%{background-color: rgb(138, 181, 236)}
+}
+
+button{
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  margin-left: 360px;
+  margin-top: -222px;
+  font-size: 20px;
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(84, 116, 172);
+  animation: colorswitch 7.5s infinite;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
