@@ -127,3 +127,12 @@ a {
   text-decoration: none;
   color: aliceblue;
 }
+
+@media (max-width: 600px) {
+  .dialc{
+    width: 200px;
+    height: 200px;
+  }
+
+  
+}
