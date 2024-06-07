@@ -119,8 +119,8 @@ a {
   
   h2 {
     text-transform: uppercase;
-    letter-spacing: 3.56px;
-    font-size: 15.11px;
+    letter-spacing: 3.34px;
+    font-size: 14.16px;
     text-align: center;
   }
   
@@ -129,28 +129,28 @@ a {
   }
   
   .clock div {
-    margin: 6.67px;
+    margin: 6.25px;
     position: relative;
   }
   
   .clock span {
-    width: 88.89px;
-    height: 71.11px;
+    width: 83.34px;
+    height: 66.67px;
     background-color: rgb(138, 181, 236);
     opacity: 0.8;
     color: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 44.44px;
-    text-shadow: 2.67px 2.67px 5.33px rgba(red, green, rgb(114, 114, 252), alpha);
+    font-size: 41.67px;
+    text-shadow: 2.5px 2.5px 5px rgba(red, green, rgb(114, 114, 252), alpha);
   }
   
   .clock .text {
-    height: 26.67px;
-    font-size: 8.89px;
+    height: 25px;
+    font-size: 8.34px;
     text-transform: uppercase;
-    letter-spacing: 1.78px;
+    letter-spacing: 1.67px;
     background-color: rgb(66, 149, 249);
     opacity: 0.8;
   }
@@ -158,21 +158,21 @@ a {
   .clock #ampm {
     bottom: 0;
     position: absolute;
-    width: 53.33px;
-    height: 26.67px;
-    font-size: 17.78px;
+    width: 50px;
+    height: 25px;
+    font-size: 16.67px;
     background-color: rgb(172, 84, 84);
   }
   
   select {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    border-radius: 13.33px;
+    border-radius: 12.5px;
     background-color: white;
-    padding: 8.89px;
-    font-size: 14.22px;
+    padding: 8.34px;
+    font-size: 13.34px;
     cursor: pointer;
-    margin-left: 8.89px;
-    margin-top: 8.89px;
+    margin-left: 8.34px;
+    margin-top: 8.34px;
   }
   
   @keyframes colorswitch {
@@ -189,14 +189,14 @@ a {
   
   button {
     position: absolute;
-    width: 53.33px;
-    height: 26.67px;
-    margin-left: 360px;
-    margin-top: -73.78px;
-    font-size: 17.78px;
+    width: 50px;
+    height: 25px;
+    margin-left: 337.5px;
+    margin-top: -69.17px;
+    font-size: 16.67px;
     color: aliceblue;
     border: none;
-    border-radius: 13.33px;
+    border-radius: 12.5px;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     background-color: rgb(84, 116, 172);
     animation: colorswitch 7.5s infinite;
